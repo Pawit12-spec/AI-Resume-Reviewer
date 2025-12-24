@@ -13,7 +13,7 @@ OPEN_API_KEY = os.getenv("API_KEY")
 
 #create basic UI using streamlit library
 st.set_page_config(page_title= " AI Resume Reviewer", page_icon= "📝", layout = "centered")
-st.title("AI Resume Reviewer0.")
+st.title("AI Resume Reviewer.")
 st.markdown("Upload you resume for a AI review")
 #provide ability to upload file via streamlit
 uploaded_file = st.file_uploader("upload your resume (PDF or TXT)", type=["pdf", "txt"])
